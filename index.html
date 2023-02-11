@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Google Chrome</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between h-[64px] bg-white relative flex-wrap items-center shadow-md"
+    >
+      <div class="flex items-center h-full">
+        <div class="ml-3 flex items-center h-full">
+          <div class="w-16 flex md:hidden justify-center items-center">
+            <button class="outline-none p-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="h-[28px] w-[160px] relative px-2">
+            <img
+              src="./assets//images/google-chrome-logo.png"
+              class="object-contain object-center w-full h-full"
+              alt=""
+            />
+          </div>
+        </div>
+        <nav class="hidden md:flex justify-between ml-12">
+          <ul class="flex items-center m-0">
+            <li class="h-16 flex relative items-center min-w-max">
+              <a
+                href="#"
+                class="h-12 flex items-center px-3 w-full after:bg-blue-950 after:bottom-0 after:h-[2px] after:left-0 after:w-full after:absolute after:content-[''] font-medium"
+              >
+                Home
+              </a>
+            </li>
+            <li class="h-16 flex relative items-center min-w-max">
+              <a href="#" class="h-12 flex items-center px-3 w-full text-gray-600 font-medium">
+                The Browser by Google
+              </a>
+            </li>
+            <li class="h-16 flex relative items-center min-w-max">
+              <a href="#" class="h-12 flex items-center px-3 w-full text-gray-600 font-medium">
+                Features
+              </a>
+            </li>
+            <li class="h-16 flex relative items-center min-w-max">
+              <a href="#" class="h-12 flex items-center px-3 w-full text-gray-600 font-medium">
+                Support
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="px-2 hidden md:block">
+        <button
+          class="chr-default-btn text-white border-0 cursor-pointer font-medium h-[46px] outline-none py-0 px-6 transition-colors duration-200 rounded-3xl bg-blue-950"
+        >
+          Download Chrome
+        </button>
+      </div>
+    </header>
+  </body>
+</html>
