@@ -29,3 +29,22 @@
         transform: rotate(360deg);
     }
 }
+
+/* .cr-shadow {
+    box-shadow: 8px 8px 0 rgb(32 33 37 / 10%);
+}
+.cr-card::after {
+    -webkit-box-shadow: 8px 8px 0 rgb(32 33 37 / 10%);
+    box-shadow: 8px 8px 0 rgb(32 33 37 / 10%);
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: 227px;
+} */
