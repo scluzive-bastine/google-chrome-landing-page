@@ -68,12 +68,232 @@
         </nav>
       </div>
       <div class="px-2 hidden md:block">
-        <button
-          class="chr-default-btn text-white border-0 cursor-pointer font-medium h-[46px] outline-none py-0 px-6 transition-colors duration-200 rounded-3xl bg-blue-950"
-        >
-          Download Chrome
-        </button>
+        <button class="chr-default-btn bg-blue-950">Download Chrome</button>
       </div>
     </header>
+    <div class="relative overflow-hidden bg-linear">
+      <!-- animation top right -->
+      <div class="absolute top-[-20%] right-0 left-[75vw] spin hidden xl:block z-0">
+        <img src="./assets/images/hero-anim-top-right.webp" alt="" />
+      </div>
+      <!-- ./ animation top right -->
+
+      <!-- animation bottom left -->
+      <div class="spin-two absolute bottom-[470px] right-[25%] hidden xl:block z-0">
+        <img src="./assets/images/hero-anim-middle.webp" alt="" />
+      </div>
+      <!-- ./ animation bottom left -->
+      <!-- animation middle -->
+      <div class="absolute bottom-[5%] left-0 spin hidden xl:block z-0">
+        <img src="./assets/images/hero-anim-bottom-left.webp" alt="" />
+      </div>
+      <!-- ./ animation middle -->
+
+      <div class="px-8 md:px-[72px] max-w-1440 m-auto relative mb-4">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] pt-16 lg:pt-[112px]">
+          <div class="col-span-12 lg:col-start-3 lg:col-span-8 flex flex-col">
+            <div class="flex flex-col">
+              <div class="w-full flex justify-center">
+                <img src="./assets/images/chrome-logo-m100.svg" class="w-20 h-20" alt="" />
+              </div>
+              <h1 class="text-center font-normal mb-6 text-[2.2rem] lg:text-[3.7rem]">
+                There's no place like Chrome
+              </h1>
+              <div class="max-w-[516px] my-0 mx-auto text-center">
+                <button class="chr-default-btn bg-blue-950 mb-4">Download Chrome</button>
+                <div class="hidden lg:block">
+                  <div class="text-center flex flex-col gap-y-8">
+                    <p class="text-xs text-gray-600">For macOS 10.13 or later.</p>
+                    <button class="outline-none text-blue-950">I want to update Chrome</button>
+                  </div>
+                  <div></div>
+                </div>
+                <p class="text-[.625rem] mt-6">
+                  By downloading Chrome, you agree to the Google Terms of Service and Chrome and
+                  ChromeOS Additional Terms of Service
+                </p>
+              </div>
+            </div>
+            <div class="mt-8">
+              <img src="./assets/images/hero-img.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="pt-16 max-w-1440 mx-auto">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] py-0 px-6 lg:px-16">
+          <div
+            class="col-span-12 lg:col-start-1 lg:col-span-6 my-14 lg:mx-24 flex flex-col text-left"
+          >
+            <div class="uppercase text-sm font-medium tracking-wide">Built for performace</div>
+            <h2 class="mt-2 mb-4 text-4xl font-normal">The faster browser</h2>
+            <p>
+              Chrome is faster than fast – it’s engineered for speed and has the tools to help you
+              get things done quickly. And with automatic updates, you always have the newest
+              version of Chrome with the latest performance improvements.
+            </p>
+            <a
+              href="#"
+              class="outline-none text-blue-950 font-normal w-fit mt-4 flex items-center space-x-2"
+            >
+              <span>Explore Features</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="col-span-12 lg:col-start-7 lg:col-span-6 mb-14">
+            <img src="./assets/images/modules-01_tablet-2x.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="pt-16 max-w-1440 mx-auto">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] py-0 px-6 lg:px-16">
+          <div class="col-span-12 lg:col-start-1 lg:col-span-6 mb-14">
+            <img src="./assets/images/modules-02_tablet-2x.webp" alt="" />
+          </div>
+          <div
+            class="col-span-12 lg:col-start-7 lg:col-span-6 my-14 lg:mx-24 flex flex-col text-left"
+          >
+            <div class="uppercase text-sm font-medium tracking-wide">Built for security</div>
+            <h2 class="mt-2 mb-4 text-4xl font-normal">The safer way to browse</h2>
+            <p>
+              You shouldn’t have to be a security expert to stay safe online. Get an extra layer of
+              protection with Google Password Manager, Chrome’s Enhanced Safe Browsing, and more.
+            </p>
+            <a
+              href="#"
+              class="outline-none text-blue-950 font-normal w-fit mt-4 flex items-center space-x-2"
+            >
+              <span>Explore Safety</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-16 max-w-1440 mx-auto">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] py-0 px-6 lg:px-16">
+          <div
+            class="col-span-12 lg:col-start-1 lg:col-span-6 my-14 lg:mx-24 flex flex-col text-left"
+          >
+            <div class="uppercase text-sm font-medium tracking-wide">Built for you</div>
+            <h2 class="mt-2 mb-4 text-4xl font-normal">Get your Chrome anywhere and everywhere</h2>
+            <p>
+              Take your Chrome passwords, bookmarks, and tabs with you – Chrome syncs between your
+              laptop and phone. And when you get a new device, all your stuff is there as soon as
+              you log into Chrome.
+            </p>
+          </div>
+          <div class="col-span-12 lg:col-start-7 lg:col-span-6 mb-14">
+            <img src="./assets/images/modules-03_tablet-2x.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="pt-16 max-w-1440 mx-auto">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] py-0 px-6 lg:px-16">
+          <div class="col-span-12 lg:col-start-1 lg:col-span-6 mb-14">
+            <img src="./assets/images/modules-04_tablet-2x.webp" alt="" />
+          </div>
+          <div
+            class="col-span-12 lg:col-start-7 lg:col-span-6 my-14 lg:mx-24 flex flex-col text-left"
+          >
+            <div class="uppercase text-sm font-medium tracking-wide">Built by Google</div>
+            <h2 class="mt-2 mb-4 text-4xl font-normal">The official browser from Google</h2>
+            <p>
+              Chrome brings you the best of Google – from offline integration of Gmail and Docs to
+              automatic website translations from Google Translate. Chrome helps you stay productive
+              and get more out of your browser.
+            </p>
+            <a
+              href="#"
+              class="outline-none text-blue-950 font-normal w-fit mt-4 flex items-center space-x-2"
+            >
+              <span>Explore Google tools</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-16 max-w-1440 mx-auto">
+        <div class="grid grid-cols-4 lg:grid-cols-12 lg:gap-x-[64px] py-0 px-6 lg:px-16">
+          <div
+            class="col-span-12 lg:col-start-1 lg:col-span-6 my-14 lg:mx-24 flex flex-col text-left"
+          >
+            <div class="uppercase text-sm font-medium tracking-wide">Helpful Browser tips</div>
+            <h2 class="mt-2 mb-4 text-4xl font-normal">
+              Essential Chrome tips you should know about
+            </h2>
+            <p>
+              Sync Chrome across devices, learn keyboard shortcuts, organize tabs, and more with
+              time-saving tips to help you get the most from your browser.
+            </p>
+            <a
+              href="#"
+              class="outline-none text-blue-950 font-normal w-fit mt-4 flex items-center space-x-2"
+            >
+              <span>Explore Google tools</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="col-span-12 lg:col-start-7 lg:col-span-6 mb-14">
+            <video src="./assets/images/tips.mp4" autoplay loop muted>
+              <source type="video/mp4" src="./assets/images/tips.mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
